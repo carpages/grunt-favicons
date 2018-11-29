@@ -23,7 +23,7 @@
   ],
   "main": "Gruntfile.js",
   "engines": {
-    "node": ">= 0.8.0"
+    "node": ">= 8"
   },
   "scripts": {
     "test": "grunt test"
@@ -33,16 +33,18 @@
     "sync-exec": "^0.6.1"
   },
   "devDependencies": {
-    "grunt-contrib-jshint": "~0.6.3",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-nodeunit": "~0.2.0",
+    "crypto": "0.0.3",
+    "eslint": "^5.9.0",
+    "eslint-config-carpages": "^3.1.1",
     "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
     "grunt-contrib-copy": "~0.4.1",
-    "image-size": "~0.1.5",
-    "crypto": "0.0.3"
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-eslint": "^21.0.0",
+    "image-size": "~0.1.5"
   },
   "peerDependencies": {
-    "grunt": "~0.4.1"
+    "grunt": ">=1.0.0"
   },
   "keywords": [
     "gruntplugin",
